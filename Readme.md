@@ -17,7 +17,12 @@ The osqp [manual](https://osqp.org/docs/) has a *code generation* [section](http
 cd code1/build 
 make
 ```
-It creates the binaries of the code in `code1/build/out`.
+It creates the binaries of the code in `code1/build/out`. Run:
+```
+cd code1/build/out
+./example 
+```
+Done, we have run osqp in c. Before to burn this code in a processor, we need to solve some issues, see `What is next`.
 
 ### What is next?
 
