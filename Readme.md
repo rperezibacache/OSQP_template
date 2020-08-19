@@ -25,6 +25,7 @@ cd code1/build/out
 Done, we have run osqp in c. Before to burn this code in a processor for MPC applications, we need to solve some issues, see `What is next`.
 
 ### What is next?
+
 - [] How to modify the constraints or the cost function in real time operation?
 - [] How to call this qp solver from another c aplication?
 - [] How to consider it as a library to be imported in a main code?.
