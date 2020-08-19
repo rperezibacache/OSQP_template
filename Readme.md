@@ -7,7 +7,18 @@ The osqp [manual](https://osqp.org/docs/) has a *code generation* [section](http
 ### Creating the qp problem and generate the C code
 1. In `main.py` a simple qp problem is formulated and solved with osqp in python. At the end of the code a c language code is generated using `codegen()`. Executing this python rutine, the folder `code1` and the library `emosqp.so` are generated. 
 
-2. First, `emosqp.so` is a library that can be directly imported in python to solve the particular formulated problem. In `call_from_python.py` shows how to call the library and solve the problem.    
+2. First, `emosqp.so` is a library that can be directly imported in python to solve the particular formulated problem. In `call_from_python.py` shows how to call the library and solve the problem.
+
+3. Second, `\code1` contains all the neccessary libraries in c language to be embedded in a processor. The compiling process provides an example in `code1/src/example.c`, which requires to be compiled as is explained next.
+
+### Compile and run the generated code
+1. In OSX, compile the API
+```
+cd code1/build 
+make
+```
+
+### What is next?
 
 
 
