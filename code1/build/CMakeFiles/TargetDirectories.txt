@@ -1,0 +1,4 @@
+/Users/ricardo/Dropbox/2018/PUCRS/Papers/OSQP_Cmake/example_1/code1/build/CMakeFiles/rebuild_cache.dir
+/Users/ricardo/Dropbox/2018/PUCRS/Papers/OSQP_Cmake/example_1/code1/build/CMakeFiles/edit_cache.dir
+/Users/ricardo/Dropbox/2018/PUCRS/Papers/OSQP_Cmake/example_1/code1/build/CMakeFiles/example.dir
+/Users/ricardo/Dropbox/2018/PUCRS/Papers/OSQP_Cmake/example_1/code1/build/CMakeFiles/emosqpstatic.dir
