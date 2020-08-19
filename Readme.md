@@ -12,11 +12,12 @@ The osqp [manual](https://osqp.org/docs/) has a *code generation* [section](http
 3. Second, `\code1` contains all the neccessary libraries in c language to be embedded in a processor. The compiling process provides an example in `code1/src/example.c`, which requires to be compiled as is explained next.
 
 ### Compile and run the generated code
-1. In OSX, compile the API
+1. Compile the API
 ```
 cd code1/build 
 make
 ```
+It creates the binaries of the code in `code1/build/out`.
 
 ### What is next?
 
